@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hritik Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 12vh;
+            background-color: rgb(38, 37, 37);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 2rem;
+            /* padding: auto; */
+        }
+        /* this is 'a' is use for anhor tag */
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+       
+        nav ul li a:hover{
+            
+            color: rgb(81, 240, 87);
+            font-size: 1.1rem;
+        }
+        main hr{
+            border: 0;
+            background: green;
+            height: 0.4vh;
+            margin: 2rem 2rem;
+            
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 2rem 0;
+            
+        }
+        /* only first section is occupied div width */
+        .firstsection > div{  
+            width: 30%;
+        }
+        .leftsection{
+            /* background-color: red; */
+            /* width: 30%; */
+            font-size: 2.5rem;
+            /* margin: 50px 0; */
+            
+        }
+        .leftsection .button{
+            padding: 30px 0;
+        }
+        .leftsection .btn{
+            
+            /* font-size: 2.5rem; */
+            padding: 12px;
+            background-color:rgb(102 13 13);
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 1rem;
+            
+            cursor: pointer;
+            
+        }
+        .rightsection img{
+            /* background-color: red; */
+            width: 110%;
+            margin: 70px 0;
+
+        }
+        .green{
+            color: rgb(18, 164, 18);
+        }
+        #element{
+            color: rgb(18, 164, 18);
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondsection h1{
+            font-size: 1.8rem;
+        }
+        .text-orange{
+            color: rgb(216, 109, 56);
+        }
+        .secondsection .box{
+            background: white;
+            height: 2px;
+            width: 65vw;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height: 92px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+            
+
+        }
+        .image-top{
+            width: 33px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+            
+        }
+        .vertical-title{
+            position: relative;
+            top: 65px;
+            width: 120px;
+            font-size: 14px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 85px;
+            width: 150px;
+            color: rgb(231, 158, 102);
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: rgb(38, 37, 37);
+            height: 200px;
+        }
+        
+        .footer{
+            display: flex;
+            padding: 24px 120px;
+            justify-content: space-evenly;
+            
+
+        }
+        footer .footer-fourth ul{
+            color: rgb(34, 0, 255);
+           
+            
+        }
+        .footer ul{
+            list-style: none;
+            
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: green;
+            padding: 0 20px;
+
+        }
+      
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Hritik's Portfolio</div>
+            <div class="right"> <ul>
+                <!-- <li><a href="/"></a>Home</li></a>
+                <li><a href="/"></a>About</li></a>
+                <li><a href="/"></a>Projects</li></a>
+                <li><a href="/"></a>Linkedin</li></a>
+                <li><a href="/"></a>Contact us</li></a> -->
+                <li><a href="/">Home</li></a>
+                <li><a href="resume.pdf">About</li></a>
+                <li><a href="/">Projects</li></a>
+                <li><a href="https://www.linkedin.com/in/hritik-prabhakar-aab633217">Linkedin</li></a>
+                <li><a href="/">Contact me</li></a>
+
+            </ul> </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="green">Hritik</span> 
+                <div>and i am a passionate</div> 
+                <!-- <div>Web Developer</div> -->
+                
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn"><a href="resume.pdf" style="color: white;text-decoration: none;">Download resume</a></button>
+                </div>
+
+            </div>
+            
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <section class="secondsection">
+
+            <hr>
+            <span class="text-orange">What i have done so far</span>
+            <h1>Schooling</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="school.png">
+                    <div class="vertical-title">
+                        10th Class (2015-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        After completing my 10th Class from the CBSE board, I made the decision to pursue a career as a software engineer.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="victoria.png">
+                    <div class="vertical-title">
+                        12th Class(2017-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        During my transition from 11th to 12th grade, I acquired foundational knowledge in computer science. As a beginner, I learned essential skills such as C++ and SQL, which laid the groundwork for my understanding of programming and database management. It was during this time that I made the decision to pursue a career in the field of BCA (Bachelor of Computer Applications).
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="IME.png">
+                    <div class="vertical-title">
+                        BCA (2019-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        I have successfully obtained my BCA degree from Chaudhary Charan Singh University..During my BCA graduation, I delved into the realm of programming languages, including Java, Python, and JavaScript. As I progressed, I discovered my passion for web development, prompting me to acquire proficiencies in essential skills like HTML, CSS, and JavaScript. These skills proved invaluable in the development of several college-level projects. As I aspired for greater opportunities in my career, I made the decision to pursue an MCA (Master of Computer Applications) to further enhance my knowledge and skills.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="ITS.png">
+                    <div class="vertical-title">
+                        MCA (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        During my MCA program, I dedicated myself to honing my skills in coding and focused on improving my understanding of Data Structures and Algorithms (DSA). I also made significant progress in my SQL proficiency and gained valuable knowledge in backend development. As part of my learning journey, I acquired expertise in Node.js and earned certificates from a 5-day Python boot camp and an AWS boot camp. As a result, I now possess a solid foundation of knowledge in Python programming and AWS services.
+                    </div>
+                </div>
+                <!-- <div class="vertical">
+                    
+                </div>
+                
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+
+            </div> -->
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer...', 'Web Designer...','Video Editor...'],
+          typeSpeed: 50,
+        });
+      </script>
+      <footer>
+        <div class="footer">
+        <div class="footer-first">
+            <h3>Hritik's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>services</li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>services</li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <h3>Key connected</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/hrithikprabhakar/" style="color: white;text-decoration: none;">Instagram</a></li>
+                
+                <li><a href="https://www.facebook.com/profile.php?id=100008748244631"style="color: white;text-decoration: none;">facebook</a></li>
+                <li><a href="https://www.linkedin.com/in/hritik-prabhakar-aab633217 " style="color: white;text-decoration: none;" >Linkedin</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-rights">Copyright &#169; hritikportfolio.com | All right reserved</div>
+      </footer>
+    </body>
+     
+</body>
+</html>
